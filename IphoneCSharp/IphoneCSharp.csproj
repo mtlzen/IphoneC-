@@ -1,0 +1,103 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\IphoneCSharp\bin\Debug\netcoreapp2.0\IphoneCSharp.deps.json" />
+    <None Remove="Views\IphoneCSharp\bin\Debug\netcoreapp2.0\IphoneCSharp.dll" />
+    <None Remove="Views\IphoneCSharp\bin\Debug\netcoreapp2.0\IphoneCSharp.pdb" />
+    <None Remove="Views\IphoneCSharp\bin\Debug\netcoreapp2.0\IphoneCSharp.runtimeconfig.dev.json" />
+    <None Remove="Views\IphoneCSharp\bin\Debug\netcoreapp2.0\IphoneCSharp.runtimeconfig.json" />
+    <None Remove="Views\IphoneCSharp\bin\Debug\netcoreapp2.0\libe_sqlite3.dylib" />
+    <None Remove="Views\IphoneCSharp\Properties\launchSettings.json" />
+    <None Remove="Views\IphoneCSharp\Views\_ViewImports.cshtml" />
+    <None Remove="Views\IphoneCSharp\Views\_ViewStart.cshtml" />
+    <None Remove="Views\IphoneCSharp\Views\Home\About.cshtml" />
+    <None Remove="Views\IphoneCSharp\Views\Home\Contact.cshtml" />
+    <None Remove="Views\IphoneCSharp\Views\Home\Index.cshtml" />
+    <None Remove="Views\IphoneCSharp\Views\IphoneCSharp\Welcome.html" />
+    <None Remove="Views\IphoneCSharp\Views\Shared\Error.cshtml" />
+    <None Remove="Views\IphoneCSharp\Views\Shared\_Layout.cshtml" />
+    <None Remove="Views\IphoneCSharp\Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Remove="Views\IphoneCSharp\obj\IphoneCSharp.csproj.codegeneration.targets" />
+    <None Remove="Views\IphoneCSharp\obj\IphoneCSharp.csproj.nuget.cache" />
+    <None Remove="Views\IphoneCSharp\obj\IphoneCSharp.csproj.nuget.g.props" />
+    <None Remove="Views\IphoneCSharp\obj\IphoneCSharp.csproj.nuget.g.targets" />
+    <None Remove="Views\IphoneCSharp\obj\project.assets.json" />
+    <None Remove="Views\IphoneCSharp\obj\Debug\netcoreapp2.0\IphoneCSharp.AssemblyInfoInputs.cache" />
+    <None Remove="Views\IphoneCSharp\obj\Debug\netcoreapp2.0\IphoneCSharp.csproj.CoreCompileInputs.cache" />
+    <None Remove="Views\IphoneCSharp\obj\Debug\netcoreapp2.0\IphoneCSharp.csproj.FileListAbsolute.txt" />
+    <None Remove="Views\IphoneCSharp\obj\Debug\netcoreapp2.0\IphoneCSharp.csprojResolveAssemblyReference.cache" />
+    <None Remove="Views\IphoneCSharp\obj\Debug\netcoreapp2.0\IphoneCSharp.dll" />
+    <None Remove="Views\IphoneCSharp\obj\Debug\netcoreapp2.0\IphoneCSharp.pdb" />
+    <None Remove="Views\IphoneCSharp\wwwroot\favicon.ico" />
+    <None Remove="Views\IphoneCSharp\wwwroot\css\site.css" />
+    <None Remove="Views\IphoneCSharp\wwwroot\css\site.min.css" />
+    <None Remove="Views\IphoneCSharp\wwwroot\images\banner1.svg" />
+    <None Remove="Views\IphoneCSharp\wwwroot\images\banner2.svg" />
+    <None Remove="Views\IphoneCSharp\wwwroot\images\banner3.svg" />
+    <None Remove="Views\IphoneCSharp\wwwroot\images\banner4.svg" />
+    <None Remove="Views\IphoneCSharp\wwwroot\js\site.js" />
+    <None Remove="Views\IphoneCSharp\wwwroot\js\site.min.js" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\.bower.json" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\LICENSE" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\bootstrap\dist\js\npm.js" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\jquery\.bower.json" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\jquery\LICENSE.txt" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\jquery\dist\jquery.js" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\jquery-validation\.bower.json" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Remove="Views\IphoneCSharp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Remove="Views\IphoneCSharp\Welcome.html" />
+    <None Remove="Views\IphoneCSharp\.bowerrc" />
+    <None Remove="Views\IphoneCSharp\appsettings.Development.json" />
+    <None Remove="Views\IphoneCSharp\appsettings.json" />
+    <None Remove="Views\IphoneCSharp\bower.json" />
+    <None Remove="Views\IphoneCSharp\bundleconfig.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Views\IphoneCSharp\Controllers\HomeController.cs" />
+    <Compile Remove="Views\IphoneCSharp\Controllers\IphoneController.cs" />
+    <Compile Remove="Views\IphoneCSharp\Models\ErrorViewModel.cs" />
+    <Compile Remove="Views\IphoneCSharp\Models\IphoneCSarpContext.cs" />
+    <Compile Remove="Views\IphoneCSharp\Models\IphoneModel.cs" />
+    <Compile Remove="Views\IphoneCSharp\obj\Debug\netcoreapp2.0\IphoneCSharp.AssemblyInfo.cs" />
+    <Compile Remove="Views\IphoneCSharp\Program.cs" />
+    <Compile Remove="Views\IphoneCSharp\Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\IphoneCSharp\" />
+  </ItemGroup>
+</Project>
